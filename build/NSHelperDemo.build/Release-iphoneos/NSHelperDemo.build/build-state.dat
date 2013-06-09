@@ -1,519 +1,0 @@
-TNSHelperDemo
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Info.plist NSHelperDemo/NSHelperDemo-Info.plist
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/NSHelperDemo.app/ResourceRules.plist
-cProcessPCH /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch.pth NSHelperDemo/NSHelperDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch.pth NSHelperDemo/NSHelperDemo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/main.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHAppDelegate.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHValidation.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHEquality.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/main.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHAppDelegate.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHValidation.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHEquality.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemo normal armv7
-cLd /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemo normal armv7s
-cCreateUniversalBinary /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo normal "armv7 armv7s"
-cGenerateDSYMFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app.dSYM /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo
-cCopyPNGFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default@2x.png NSHelperDemo/Default@2x.png
-cCopyPNGFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default.png NSHelperDemo/Default.png
-cCopyStringsFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/en.lproj/InfoPlist.strings NSHelperDemo/en.lproj/InfoPlist.strings
-cCopyPNGFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default-568h@2x.png NSHelperDemo/Default-568h@2x.png
-cProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/481F5163-AD5A-461F-84D9-EF665B82550B.mobileprovision" /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/embedded.mobileprovision
-cProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/481F5163-AD5A-461F-84D9-EF665B82550B.mobileprovision" /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/embedded.mobileprovision
-cTouch /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo.xcent
-cCodeSign /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-cValidate /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
-c0000000050ED385D0000000000000110
-t1357723741
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
-c0000000051AE6D7F00000000000001A7
-t1370385791
-s423
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
-c0000000051AE6D7F00000000000001E5
-t1370385791
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000051AE6D810000000000322700
-t1370385793
-s3286784
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000051AE6D83000000000062AD10
-t1370385795
-s6466832
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c0000000051AE6D8200000000000015F7
-t1370385794
-s5623
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c0000000051AE6D830000000000000E8D
-t1370385795
-s3725
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000051AE6D8600000000011BCDF0
-t1370385798
-s18599408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
-c0000000051AE6D890000000000001B73
-t1370385801
-s7027
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/Default-568h@2x.png
-c00000000515C9E6200000000000048A2
-t1365024354
-s18594
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/Default.png
-c00000000515C9E62000000000000198C
-t1365024354
-s6540
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/Default@2x.png
-c00000000515C9E620000000000003EEB
-t1365024354
-s16107
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m
-c0000000051B476BB0000000000000885
-t1370781371
-s2181
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHelperDemo-Prefix.pch
-c0000000051B476BB0000000000000147
-t1370781371
-s327
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/en.lproj/InfoPlist.strings
-c0000000051B46C3A000000000000002D
-t1370778682
-s45
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m
-c0000000051B476BB0000000000000152
-t1370781371
-s338
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m
-c0000000051B479B30000000000000174
-t1370782131
-s372
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m
-c0000000051B479970000000000000282
-t1370782103
-s642
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo.xcent
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHAppDelegate.o
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemo
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemo.LinkFileList
-c0000000051B47C450000000000000260
-t1370782789
-s608
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHEquality.o
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHValidation.o
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/main.o
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHAppDelegate.o
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemo
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemo.LinkFileList
-c0000000051B47C450000000000000264
-t1370782789
-s612
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHEquality.o
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHValidation.o
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/main.o
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app.dSYM
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default-568h@2x.png
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default.png
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default@2x.png
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Info.plist
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/PkgInfo
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/ResourceRules.plist
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/embedded.mobileprovision
-t2
-s0
-
-N/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/admin/Library/MobileDevice/Provisioning Profiles/481F5163-AD5A-461F-84D9-EF665B82550B.mobileprovision
-c0000000051B47C0D0000000000003E85
-t1370782733
-s16005
-
-N/var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch.pth
-t2
-s0
-
-N/var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch.pth
-t2
-s0
-
-NNSHelperDemo/NSHelperDemo-Info.plist
-c0000000051B46C3A00000000000005AC
-t1370778682
-s1452
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies35432ec5b364b741^24f152c5b364b741^---0#1#0#--18"Check dependencies36"180D6CCD-F75F-4887-9FC3-D9A344145DD4-
-
-CCodeSign /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-s392475591.195247
-e392475594.539028
-r1
-xCodeSign
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"CodeSign build/Release-iphoneos/NSHelperDemo.app3d0b32c7b364b741^e5f089cab364b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/0000000000000000^893"CodeSign build/Release-iphoneos/NSHelperDemo.app    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/codesign --force --sign ffb4744ff91fa58f2ffff9d2e515adfb1d2aa314 --resource-rules=/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/ResourceRules.plist --entitlements /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo.xcent /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app36"C1378607-7795-497C-8919-8659E01083CA-
-
-CCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHAppDelegate.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475590.278079
-e392475590.449135
-r1
-xCompileC
-xbuild/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHAppDelegate.o
-x/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m0a6747c6b364b741^2b3173c6b364b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m0000000000000000^3660"CompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHAppDelegate.o NSHelperDemo/NSHAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHAppDelegate.d --serialize-diagnostics /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHAppDelegate.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHAppDelegate.o36"D2958E0F-3461-4291-9601-D6BD03C00115-
-
-CCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHEquality.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475590.278747
-e392475590.422193
-r1
-xCompileC
-xbuild/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHEquality.o
-x/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m3b7347c6b364b741^66136cc6b364b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m0000000000000000^3700"CompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHEquality.o NSStringHelper/NSString+NSHEquality.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHEquality.d --serialize-diagnostics /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHEquality.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHEquality.o36"CAD2C588-ECE3-481A-98F9-1525B9EA15BE-
-
-CCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHValidation.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475590.278095
-e392475590.426622
-r1
-xCompileC
-xbuild/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHValidation.o
-x/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.mf45047c6b364b741^1f496dc6b364b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m0000000000000000^3712"CompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHValidation.o NSStringHelper/NSString+NSHValidation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHValidation.d --serialize-diagnostics /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHValidation.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSString+NSHValidation.o36"1DA55D08-267A-43FC-9C8E-BC38BC6DC5DF-
-
-CCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/main.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475590.278069
-e392475590.426811
-r1
-xCompileC
-xbuild/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/main.o
-x/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m9d4947c6b364b741^50516dc6b364b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m0000000000000000^3600"CompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/main.o NSHelperDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/main.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/main.o36"64484292-E37A-447B-8B4C-02A81409A385-
-
-CCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHAppDelegate.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475590.427858
-e392475590.581046
-r1
-xCompileC
-xbuild/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHAppDelegate.o
-x/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m17b76dc6b364b741^73be94c6b364b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m0000000000000000^3667"CompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHAppDelegate.o NSHelperDemo/NSHAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7s -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHAppDelegate.d --serialize-diagnostics /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHAppDelegate.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHAppDelegate.m -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHAppDelegate.o36"1C6A8408-D780-4CB8-B488-DF8800DBAA3C-
-
-CCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHEquality.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475590.451273
-e392475590.488321
-r1
-xCompileC
-xbuild/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHEquality.o
-x/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.me1b573c6b364b741^6d017dc6b364b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m0000000000000000^3707"CompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHEquality.o NSStringHelper/NSString+NSHEquality.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7s -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHEquality.d --serialize-diagnostics /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHEquality.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHEquality.m -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHEquality.o36"A2B08BF4-DFDA-41F4-98CA-CFFBC8A70B37-
-
-CCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHValidation.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475590.428500
-e392475590.471153
-r1
-xCompileC
-xbuild/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHValidation.o
-x/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m16de6dc6b364b741^cea978c6b364b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m0000000000000000^3719"CompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHValidation.o NSStringHelper/NSString+NSHValidation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7s -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHValidation.d --serialize-diagnostics /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHValidation.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSStringHelper/NSString+NSHValidation.m -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSString+NSHValidation.o36"54C8954E-99D8-4467-9570-B918704ACA96-
-
-CCompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/main.o /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475590.423968
-e392475590.459782
-r1
-xCompileC
-xbuild/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/main.o
-x/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m18b06cc6b364b741^40bd75c6b364b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m0000000000000000^3607"CompileC build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/main.o NSHelperDemo/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7s -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/main.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/main.m -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/main.o36"6FD4BE1A-FB51-42B2-AB85-98C396BC11CE-
-
-CCopyPNGFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default-568h@2x.png NSHelperDemo/Default-568h@2x.png
-s392475590.989578
-e392475591.144421
-r1
-xCopyPNGFile
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default-568h@2x.png
-xNSHelperDemo/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/Release-iphoneos/NSHelperDemo.app/Default-568h@2x.png NSHelperDemo/Default-568h@2x.pnga261fdc6b364b741^0ef824c7b364b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/Default-568h@2x.png0000000000000000^686"CopyPNGFile "build/Release-iphoneos/NSHelperDemo.app/Default-568h@2x.png" "NSHelperDemo/Default-568h@2x.png"    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/Default-568h@2x.png" "/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default-568h@2x.png"36"70833079-0489-4595-9FD9-D70A104F0EAF-
-
-CCopyPNGFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default.png NSHelperDemo/Default.png
-s392475590.989204
-e392475591.103985
-r1
-xCopyPNGFile
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default.png
-xNSHelperDemo/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Release-iphoneos/NSHelperDemo.app/Default.png NSHelperDemo/Default.png374ffdc6b364b741^fdbb1ac7b364b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/Default.png0000000000000000^646"CopyPNGFile build/Release-iphoneos/NSHelperDemo.app/Default.png NSHelperDemo/Default.png    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/Default.png /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default.png36"46080653-35A1-498A-B6CF-33B0205EE1E9-
-
-CCopyPNGFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default@2x.png NSHelperDemo/Default@2x.png
-s392475590.989198
-e392475591.128859
-r1
-xCopyPNGFile
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default@2x.png
-xNSHelperDemo/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Release-iphoneos/NSHelperDemo.app/Default@2x.png NSHelperDemo/Default@2x.pnge84dfdc6b364b741^2a0121c7b364b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/Default@2x.png0000000000000000^666"CopyPNGFile "build/Release-iphoneos/NSHelperDemo.app/Default@2x.png" "NSHelperDemo/Default@2x.png"    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/Default@2x.png" "/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Default@2x.png"36"7B184ECC-2C08-4BC7-B85D-853311B43392-
-
-CCopyStringsFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/en.lproj/InfoPlist.strings NSHelperDemo/en.lproj/InfoPlist.strings
-s392475590.989208
-e392475590.999291
-r1
-xCopyStringsFile
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/en.lproj/InfoPlist.strings
-xNSHelperDemo/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy NSHelperDemo/en.lproj/InfoPlist.strings4354fdc6b364b741^81eaffc6b364b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/en.lproj/InfoPlist.strings0000000000000000^619"CopyStringsFile build/Release-iphoneos/NSHelperDemo.app/en.lproj/InfoPlist.strings NSHelperDemo/en.lproj/InfoPlist.strings    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/en.lproj -- NSHelperDemo/en.lproj/InfoPlist.strings36"1AFA3992-94C1-4DE9-970F-78B2586BC29A-
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/NSHelperDemo.app/ResourceRules.plist
-s392475589.334324
-e392475589.340697
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
-xbuild/Release-iphoneos/NSHelperDemo.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release-iphoneos/NSHelperDemo.app/ResourceRules.plist9bcb55c5b364b741^0b6357c5b364b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/ResourceRules.plist000080ac1d061042^907"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/NSHelperDemo.app/ResourceRules.plist    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app36"B8C010FA-89AB-498E-A0A2-8E0AE5414DD2-
-
-CCreateUniversalBinary /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo normal "armv7 armv7s"
-s392475590.912351
-e392475590.956331
-r1
-xCreateUniversalBinary
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo
-xnormal
-xarmv7 armv7s
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Create universal binary /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemoea09efc6b364b741^42d1f4c6b364b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo000000000080d041^784"CreateUniversalBinary build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo normal "armv7 armv7s"    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    lipo -create /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemo /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemo -output /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo36"BAEF7F81-5B4D-4818-BDBB-9CF3BEB2AE32-
-
-CGenerateDSYMFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app.dSYM /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo
-s392475590.963125
-e392475590.981725
-r1
-xGenerateDSYMFile
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app.dSYM
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Generate /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app.dSYMc39ef6c6b364b741^3256fbc6b364b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app.dSYM000000000080d041^682"GenerateDSYMFile build/Release-iphoneos/NSHelperDemo.app.dSYM build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/NSHelperDemo -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app.dSYM36"446DA469-0E87-4A1A-AD5C-01DAAE872E2C-
-
-CLd /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemo normal armv7
-s392475590.461047
-e392475590.894171
-r1
-xLd
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemo
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Link /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemoed2876c6b364b741^cde7e4c6b364b741^---0#0#0#--1243"Ld build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemo normal armv7    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -filelist /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemo.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7/NSHelperDemo36"5230B49C-8075-47E5-AC76-50DFFD0233AF-
-
-CLd /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemo normal armv7s
-s392475590.587819
-e392475590.905568
-r1
-xLd
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemo
-xnormal
-xarmv7s
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Link /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemobd8c96c6b364b741^7ae0e7c6b364b741^---0#0#0#--1248"Ld build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemo normal armv7s    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -filelist /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemo.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/Objects-normal/armv7s/NSHelperDemo36"0A5D29F2-14E0-412B-892E-632096A1F19C-
-
-CProcessInfoPlistFile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Info.plist NSHelperDemo/NSHelperDemo-Info.plist
-s392475589.334322
-e392475589.340159
-r1
-xProcessInfoPlistFile
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Info.plist
-xNSHelperDemo/NSHelperDemo-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process NSHelperDemo/NSHelperDemo-Info.plist10cc55c5b364b741^074557c5b364b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHelperDemo-Info.plist0000000000000000^841"ProcessInfoPlistFile build/Release-iphoneos/NSHelperDemo.app/Info.plist NSHelperDemo/NSHelperDemo-Info.plist    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility NSHelperDemo/NSHelperDemo-Info.plist -genpkginfo /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/ResourceRules.plist -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/Info.plist36"B6926802-5127-4A18-84EC-9E1D6C4CFC4C-
-
-CProcessPCH /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch.pth NSHelperDemo/NSHelperDemo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475589.348187
-e392475590.271394
-r1
-xProcessPCH
-x/var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch.pth
-xNSHelperDemo/NSHelperDemo-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile NSHelperDemo/NSHelperDemo-Prefix.pch314559c5b364b741^c47c45c6b364b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHelperDemo-Prefix.pch0000000000000000^3638"ProcessPCH /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch.pth NSHelperDemo/NSHelperDemo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7s -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHelperDemo-Prefix.pch -o /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-covyekubiflttnhcrqphfpkvwcoa/NSHelperDemo-Prefix.pch.d36"F41ECE3F-E8A8-42A3-95B9-F1578FFA8B2A-
-
-CProcessPCH /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch.pth NSHelperDemo/NSHelperDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392475589.348185
-e392475590.271226
-r1
-xProcessPCH
-x/var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch.pth
-xNSHelperDemo/NSHelperDemo-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile NSHelperDemo/NSHelperDemo-Prefix.pch4e4659c5b364b741^d26d45c6b364b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHelperDemo-Prefix.pch0000000000000000^3635"ProcessPCH /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch.pth NSHelperDemo/NSHelperDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-generated-files.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-own-target-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-all-target-headers.hmap -iquote /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo-project-headers.hmap -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/DerivedSources -F/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch.dia -c /Users/admin/Documents/Developer/NSStringHelperDemo/NSHelperDemo/NSHelperDemo-Prefix.pch -o /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/55/s3bjr_r966d49qx1_2m2n5fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/NSHelperDemo-Prefix-fcyjutksfipddjffadtlxhnjuunx/NSHelperDemo-Prefix.pch.d36"6B422E8F-9647-4C68-B195-CE71356F48F0-
-
-CProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/481F5163-AD5A-461F-84D9-EF665B82550B.mobileprovision" /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/embedded.mobileprovision
-s392475591.162692
-e392475591.165015
-r1
-xProcessProductPackaging
-x/Users/admin/Library/MobileDevice/Provisioning Profiles/481F5163-AD5A-461F-84D9-EF665B82550B.mobileprovision
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection199"ProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/481F5163-AD5A-461F-84D9-EF665B82550B.mobileprovision" build/Release-iphoneos/NSHelperDemo.app/embedded.mobileprovision52b529c7b364b741^b43d2ac7b364b741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/embedded.mobileprovision0000000000000000^729"ProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/481F5163-AD5A-461F-84D9-EF665B82550B.mobileprovision" build/Release-iphoneos/NSHelperDemo.app/embedded.mobileprovision    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility "/Users/admin/Library/MobileDevice/Provisioning Profiles/481F5163-AD5A-461F-84D9-EF665B82550B.mobileprovision" -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/embedded.mobileprovision36"738CF45F-9C19-40E5-B237-5EB7F335CD7B-
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo.xcent
-s392475591.184919
-e392475591.187315
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection224"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo.xcent84662fc7b364b741^aef32fc7b364b741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo.xcent000000000080d041^805"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo.xcent    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/admin/Documents/Developer/NSStringHelperDemo/build/NSHelperDemo.build/Release-iphoneos/NSHelperDemo.build/NSHelperDemo.xcent36"E7D1688F-BE89-42DF-AAF7-F1DA2563CD1A-
-
-CTouch /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-s392475591.172955
-e392475591.177490
-r1
-xTouch
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.appde542cc7b364b741^a86f2dc7b364b741^---0#0#0#--422"Touch build/Release-iphoneos/NSHelperDemo.app    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app36"F58BED22-080C-44FC-BD9D-DD480C876125-
-
-CValidate /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-s392475594.546937
-e392475595.281821
-r1
-xValidate
-x/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app
-owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
-oUnable to validate your application. - (null)
-o
-owarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)
-oUnable to validate your application. - (null)
-o
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Validate build/Release-iphoneos/NSHelperDemo.appe23c8ccab364b741^d33048cbb364b741^-500"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)Unable to validate your application. - (null)2(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57392475595#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72392475595#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app/0000000000000000^566"Validate build/Release-iphoneos/NSHelperDemo.app    cd /Users/admin/Documents/Developer/NSStringHelperDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/admin/Documents/Developer/NSStringHelperDemo/build/Release-iphoneos/NSHelperDemo.app36"E729C069-7A94-48FD-9C2C-B81E98735041-
-

@@ -169,7 +169,8 @@
 				8492E8C71764B0820084CC66 /* NSString+NSHEquality.h */,
 				8492E8C81764B0820084CC66 /* NSString+NSHEquality.m */,
 			);
-			path = NSStringHelper;
+			name = NSStringHelper;
+			path = NSHelper/NSStringHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
