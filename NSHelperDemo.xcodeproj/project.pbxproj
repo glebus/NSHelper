@@ -21,8 +21,10 @@
 		8492E8AD1764A3BA0084CC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492E88E1764A3BA0084CC66 /* Foundation.framework */; };
 		8492E8B51764A3BA0084CC66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8492E8B31764A3BA0084CC66 /* InfoPlist.strings */; };
 		8492E8B81764A3BA0084CC66 /* NSStringHelperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8B71764A3BA0084CC66 /* NSStringHelperDemoTests.m */; };
-		8492E8C51764A45B0084CC66 /* NSString+NSHValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8C41764A45B0084CC66 /* NSString+NSHValidation.m */; };
-		8492E8C91764B0820084CC66 /* NSString+NSHEquality.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8C81764B0820084CC66 /* NSString+NSHEquality.m */; };
+		8492E8D11764C4D60084CC66 /* NSString+NSHEquality.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8CD1764C4D60084CC66 /* NSString+NSHEquality.m */; };
+		8492E8D21764C4D60084CC66 /* NSString+NSHEquality.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8CD1764C4D60084CC66 /* NSString+NSHEquality.m */; };
+		8492E8D31764C4D60084CC66 /* NSString+NSHValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8D01764C4D60084CC66 /* NSString+NSHValidation.m */; };
+		8492E8D41764C4D60084CC66 /* NSString+NSHValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492E8D01764C4D60084CC66 /* NSString+NSHValidation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +57,11 @@
 		8492E8B41764A3BA0084CC66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8492E8B61764A3BA0084CC66 /* NSStringHelperDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringHelperDemoTests.h; sourceTree = "<group>"; };
 		8492E8B71764A3BA0084CC66 /* NSStringHelperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringHelperDemoTests.m; sourceTree = "<group>"; };
-		8492E8C21764A4370084CC66 /* NSString+NSHHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHHelper.h"; sourceTree = "<group>"; };
-		8492E8C31764A45B0084CC66 /* NSString+NSHValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHValidation.h"; sourceTree = "<group>"; };
-		8492E8C41764A45B0084CC66 /* NSString+NSHValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHValidation.m"; sourceTree = "<group>"; };
-		8492E8C71764B0820084CC66 /* NSString+NSHEquality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHEquality.h"; sourceTree = "<group>"; };
-		8492E8C81764B0820084CC66 /* NSString+NSHEquality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHEquality.m"; sourceTree = "<group>"; };
+		8492E8CC1764C4D60084CC66 /* NSString+NSHEquality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHEquality.h"; sourceTree = "<group>"; };
+		8492E8CD1764C4D60084CC66 /* NSString+NSHEquality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHEquality.m"; sourceTree = "<group>"; };
+		8492E8CE1764C4D60084CC66 /* NSString+NSHHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHHelper.h"; sourceTree = "<group>"; };
+		8492E8CF1764C4D60084CC66 /* NSString+NSHValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHValidation.h"; sourceTree = "<group>"; };
+		8492E8D01764C4D60084CC66 /* NSString+NSHValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHValidation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,7 @@
 		8492E8801764A3BA0084CC66 = {
 			isa = PBXGroup;
 			children = (
-				8492E8C11764A3F50084CC66 /* NSStringHelper */,
+				8492E8CA1764C4D60084CC66 /* NSHelper */,
 				8492E8921764A3BA0084CC66 /* NSHelperDemo */,
 				8492E8B01764A3BA0084CC66 /* NSHelperDemoTests */,
 				8492E88B1764A3BA0084CC66 /* Frameworks */,
@@ -160,17 +162,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8492E8C11764A3F50084CC66 /* NSStringHelper */ = {
+		8492E8CA1764C4D60084CC66 /* NSHelper */ = {
 			isa = PBXGroup;
 			children = (
-				8492E8C21764A4370084CC66 /* NSString+NSHHelper.h */,
-				8492E8C31764A45B0084CC66 /* NSString+NSHValidation.h */,
-				8492E8C41764A45B0084CC66 /* NSString+NSHValidation.m */,
-				8492E8C71764B0820084CC66 /* NSString+NSHEquality.h */,
-				8492E8C81764B0820084CC66 /* NSString+NSHEquality.m */,
+				8492E8CB1764C4D60084CC66 /* NSStringHelper */,
 			);
-			name = NSStringHelper;
-			path = NSHelper/NSStringHelper;
+			path = NSHelper;
+			sourceTree = "<group>";
+		};
+		8492E8CB1764C4D60084CC66 /* NSStringHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8492E8CC1764C4D60084CC66 /* NSString+NSHEquality.h */,
+				8492E8CD1764C4D60084CC66 /* NSString+NSHEquality.m */,
+				8492E8CE1764C4D60084CC66 /* NSString+NSHHelper.h */,
+				8492E8CF1764C4D60084CC66 /* NSString+NSHValidation.h */,
+				8492E8D01764C4D60084CC66 /* NSString+NSHValidation.m */,
+			);
+			path = NSStringHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,8 +294,8 @@
 			files = (
 				8492E8991764A3BA0084CC66 /* main.m in Sources */,
 				8492E89D1764A3BA0084CC66 /* NSHAppDelegate.m in Sources */,
-				8492E8C51764A45B0084CC66 /* NSString+NSHValidation.m in Sources */,
-				8492E8C91764B0820084CC66 /* NSString+NSHEquality.m in Sources */,
+				8492E8D11764C4D60084CC66 /* NSString+NSHEquality.m in Sources */,
+				8492E8D31764C4D60084CC66 /* NSString+NSHValidation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +304,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8492E8B81764A3BA0084CC66 /* NSStringHelperDemoTests.m in Sources */,
+				8492E8D21764C4D60084CC66 /* NSString+NSHEquality.m in Sources */,
+				8492E8D41764C4D60084CC66 /* NSString+NSHValidation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
